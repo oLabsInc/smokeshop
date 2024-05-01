@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild City Smoke Shop</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <link rel="stylesheet" href="./public/style/main.css">
+    <script src="./public/logic/main.js" defer></script>
+</head>
+<body>
+    <h1>Wild City Smoke Shop</h1>
+    <h3>360 VR Tour</h3>
+
+    <a-scene id="scene" loading-screen="dotsColor: lime; backgroundColor: black">
+        <a-assets>
+            <img id="loc" src="./public/media/images/360/8.png" alt="">
+        </a-assets>
+      <a-sky rotation="0 175 0" src="#loc"></a-sky>
+    </a-scene>
+</body>
+</html>
